@@ -51,7 +51,9 @@ self.C3_JsPropNameTable = [
 	{Btn_basla: 0},
 	{yildiz: 0},
 	{yesil_tik: 0},
-	{sonSayfa: 0}
+	{sonSayfa: 0},
+	{Btn_tekraroyna: 0},
+	{carpi: 0}
 ];
 
 self.InstanceType = {
@@ -101,5 +103,7 @@ self.InstanceType = {
 	Btn_basla: class extends self.ISpriteInstance {},
 	yildiz: class extends self.ISpriteInstance {},
 	yesil_tik: class extends self.ISpriteInstance {},
-	sonSayfa: class extends self.ISpriteInstance {}
+	sonSayfa: class extends self.ISpriteInstance {},
+	Btn_tekraroyna: class extends self.ISpriteInstance {},
+	carpi: class extends self.ISpriteInstance {}
 }
